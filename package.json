@@ -1,11 +1,11 @@
 {
   "name": "spa-github-pages",
-  "description": "Archbloom's Single Page Apps",
+  "description": "Single Page Apps for GitHub Pages",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rafrex/spa-github-pages.git"
   },
-  "author": "Rafael",
+  "author": "Rafael Pedicini <code@rafrex.com>",
   "license": "MIT",
   "dependencies": {
     "current-input": "^0.1.0",
