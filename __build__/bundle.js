@@ -26857,6 +26857,17 @@
 	      ' incompatibility with single page apps (like this one).'
 	    ),
 	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Please see the ',
+	      _react2.default.createElement(
+	        'a',
+	        { href: repoReadmeLink },
+	        'repo readme'
+	      ),
+	      ' for instructions on how to use this boilerplate to deploy your own single page app using GitHub Pages.'
+	    ),
+	    _react2.default.createElement(
 	      'div',
 	      null,
 	      _react2.default.createElement(
