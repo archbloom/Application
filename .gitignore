@@ -6,3 +6,18 @@ node_modules
 
 # Files marked with gitigx
 *gitigx*
+
+_config.yml
+_site/
+*Thumbs.db
+
+.sass-cache/
+.jekyll-metadata
+
+Gemfile.lock
+
+*.gem
+pkg/
+*.swp
+*~
+
