@@ -1,4 +1,23 @@
+
+# Dependency directory
+node_modules
+
+# Source maps
+*.js.map
+
+# Files marked with gitigx
+*gitigx*
+
 _config.yml
-_site/*
+_site/
 *Thumbs.db
+
+.sass-cache/
+.jekyll-metadata
+
 Gemfile.lock
+
+*.gem
+pkg/
+*.swp
+*~

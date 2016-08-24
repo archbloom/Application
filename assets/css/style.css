@@ -34,6 +34,7 @@ a.nav-link {
 a.nav-link i{
 	font-size: 16px;
 }
+
 a.nav-link:hover { color: #777; }
 
 #bio {
@@ -188,4 +189,3 @@ footer {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
-
