@@ -1,23 +1,19 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
-	<h3>Bhushan Authankar</h3>
+	<a href="{{ site.BASE_PATH }}/">
+		<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
+	</a>
 	<h3 class="title">
-		<a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-	</h3>
+        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+    </h3>
 </header>
+
 {% if site.author.bio %}
 <div id="bio" class="text-center">
 	{{ site.author.bio }}
 </div>
 {% endif %}
-<div class="text-center">
-	<a href="{{ site.BASE_PATH}}/"><h4>Home</h4></a>
-	<a href="{{ site.BASE_PATH}}/{{ site.about_path }}"><h4>About me</h4></a>
-	<a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><h4>Categories</h4></a>
-	<a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><h4>Tags</h4></a>
-	<a herf="/all_posts.html"><h4>All posts</h4></a>
 
-</div>
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
 		{% if site.author.github %}
@@ -27,10 +23,10 @@
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.linkedin %}
+		{% if site.author.twitter %}
 		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/{{ site.author.linkedin }}">
-				<i class="fa fa-linkedin fa-lg"></i>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
+				<i class="fa fa-twitter fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
@@ -43,10 +39,17 @@
 		{% endif %}
 	</ul>
 	<ul id="contact-list-secondary" class="list-unstyled list-inline">
-		{% if site.author.twitter %}
+		{% if site.author.pinterest %}
 		<li>
-			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
-				<i class="fa fa-twitter fa-lg"></i>
+			<a class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.author.pinterest }}">
+				<i class="fa fa-pinterest fa-lg"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.author.linkedin %}
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
+				<i class="fa fa-linkedin fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
@@ -57,13 +60,4 @@
 		</li>
 	</ul>
 </div>
-<div class="text-center">
-	<p style="font-size:100% ;color:#eceff1;">Made with <i class="fa fa-heart"></i> in India</a><br></p>
-</div>
-
-
-<footer>
-	<hr/>
-	<p>	 Open sourced under <a href="http://opensource.org/licenses/MIT">MIT</a> license. <br></p>
-</footer>
 <!-- sidebar.html end -->

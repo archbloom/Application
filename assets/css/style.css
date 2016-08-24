@@ -7,7 +7,7 @@ body{
 .sidebar {
 	position: fixed;
 	top: 0px;
-	padding-top: 2%;
+	padding-top: 10%;
 	background-color: #2c3e50;
 	color: #fff;
 }
@@ -86,6 +86,12 @@ article .share .gplus:hover {
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
+@media only screen and (min-width: 768px) {
+    .page-header{
+        margin-right: 70px;
+    }
+}
+
 article{
 	margin-bottom: 40px;
 }
@@ -139,13 +145,6 @@ article.home h4 a:hover {
 }
 
 footer {
-	position: fixed;
-	padding-top: 15px;
-	padding-bottom: 0px;
-	bottom: 0px;
-	font-family: 'Ubuntu';
-}
-footer1 {
 	padding-top: 15px;
 	font-family: 'Ubuntu';
 }
@@ -189,3 +188,4 @@ footer1 {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
+
